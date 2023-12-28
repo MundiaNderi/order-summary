@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <title>Oder Summary Component</title>
+  </head>
+  <body>
+    <div
+      class="card bg-paleBlue justify-center items-center flex min-h-screen px-6 md:px-0 md:py-8 border border-blue-500"
+    >
+      <div
+        class="bg-white flex flex-col max-w-md mx-auto shadow-md rounded-3xl border border-red-500"
+      >
+        <!-- image-->
+        <div>
+          <img
+            class="rounded-tl-3xl rounded-tr-3xl"
+            src="/images/illustration-hero.svg"
+          />
+        </div>
+
+        <div class="summary flex flex-col py-6 px-6 items-center">
+          <h1
+            class="font-bold font-redhat text-3xl md:text-4xl mb-5 justify-center items-center"
+          >
+            Order Summary
+          </h1>
+          <p
+            class="items-center font-redhat text-textBlue md:mx-12 md:w-80 md:h-20"
+          >
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+
+        <!--Annual plan-->
+        <div class="annual mx-6 md:mx-12 h-24 items-center">
+          <div
+            class="annual flex flex-row items-center justify-center p-4 md:p-6 bg-paleBlue"
+          >
+            <div class="image md:mr-5">
+              <img src="/images/icon-music.svg" />
+            </div>
+            <div class="plan ml-5 md:ml-0">
+              <h2 class="text-base pb-2">Annual Plan</h2>
+              <p class="text-base">$59.99/year</p>
+            </div>
+
+            <!--Change-->
+            <div class="change my-3 ml-7 md:ml-20">
+              <a class="underline text-linkBlue" href="#">Change</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Payment-->
+        <div
+          class="mx-auto pay mt-6 bg-brightBlue text-white px-12 p-3 rounded-2xl shadow-xl justify-center"
+        >
+          <a class="md:py-4 px-7 md:px-14" href="#">Proceed to Payment</a>
+        </div>
+        <!--Cancel-->
+        <div class="cancel mx-auto mt-8 mb-6">
+          <p>Cancel Order</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

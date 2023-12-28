@@ -1,0 +1,24 @@
+{
+  "name": "order-summary",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MundiaNderi/order-summary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MundiaNderi/order-summary/issues"
+  },
+  "homepage": "https://github.com/MundiaNderi/order-summary#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
