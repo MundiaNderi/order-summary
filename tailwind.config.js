@@ -17,7 +17,8 @@ module.exports = {
         darkBlue: 'hsl(223, 47%, 23%)',
         textBlue: 'hsla(223, 23%, 55%, 1)',
         linkBlue: 'hsla(245, 75%, 52%, 1)',
-        buttonHover: 'hsla(245, 83%, 68%, 1)'
+        buttonHover: 'hsla(245, 83%, 68%, 1)',
+        cancelHover: 'hsla(223, 47%, 23%, 1)'
       },
       textColor: ['responsive', 'hover', 'focus', 'group-hover'],
       fontFamily: {

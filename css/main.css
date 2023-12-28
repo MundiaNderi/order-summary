@@ -771,7 +771,7 @@ video {
 
 .card {
   background-image: url(/images/Path\ 2.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: top;
   height: 25vh;
   width: auto;
@@ -783,6 +783,10 @@ video {
 
 .hover\:text-buttonHover:hover {
   color: hsla(245, 83%, 68%, 1);
+}
+
+.hover\:text-cancelHover:hover {
+  color: hsla(223, 47%, 23%, 1);
 }
 
 .hover\:no-underline:hover {
