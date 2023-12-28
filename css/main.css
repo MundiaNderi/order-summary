@@ -627,20 +627,6 @@ video {
   border-top-right-radius: 1.5rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .bg-brightBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(245 75% 52% / var(--tw-bg-opacity));
@@ -789,6 +775,18 @@ video {
   background-position: top;
   height: 25vh;
   width: auto;
+}
+
+.hover\:bg-buttonHover:hover {
+  background-color: hsla(245, 83%, 68%, 1);
+}
+
+.hover\:text-buttonHover:hover {
+  color: hsla(245, 83%, 68%, 1);
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 
 @media (min-width: 768px) {
